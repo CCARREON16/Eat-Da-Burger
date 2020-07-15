@@ -7,7 +7,7 @@ USE eatdaburger_db;
 CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
-	name varchar(200) NOT NULL,
+	burger_name varchar(200) NOT NULL,
 	devour BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
