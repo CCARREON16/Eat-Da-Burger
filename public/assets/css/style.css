@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  
 }
 
 .label {
@@ -20,10 +20,23 @@ li {
 
 h1 {
   text-align: center;
+  color: darkgreen;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 55px;
 }
 h2 {
   text-align: center;
 }
 .create-form {
   text-align: center;
+}
+
+.create-form-1 {
+  text-align: center;
+  background-color: orange;
+}
+
+body {
+  background-color: orange;
 }
