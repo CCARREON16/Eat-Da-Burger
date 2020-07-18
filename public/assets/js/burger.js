@@ -27,11 +27,11 @@ $(function() {
 
     var currentBurger = {
       name: $("#bn").val().trim(),
-      sleepy: $("[name=currentBurger]:checked").val().trim()
+      devour: $("[name=currentBurger]:checked").val().trim()
     };
 
     // Send the POST request.
-    $.ajax("/api/burger", {
+    $.ajax("/api/burgers", {
       type: "POST",
       data: currentBurger
     }).then(
